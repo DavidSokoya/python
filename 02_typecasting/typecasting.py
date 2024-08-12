@@ -3,12 +3,13 @@
 # Why -> user input is string
 
 
-# Explicit vs Implicit
+# Explicit typecasting - Manually converting value or variable to another datatype
 
 name = "David"
 age = 23
 cgpa = 4.89
 is_fulltime = True
+
 
 # print(type(name))
 # print(type(age))
@@ -35,4 +36,17 @@ print(name)
 age = str(age)
 print(age)
 # string toNumber
+
+
+# Implicit typecasting - Automatically converting value or variable to another datatype
+num1 = 5
+num2 = 5.0
+
+num1  = num1/num2
+
+print(num1)
+
+
+
+
 
