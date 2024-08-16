@@ -1,0 +1,1 @@
+# strings are sequences of characters that can be indexed, meaning you can access individual characters or substrings using their position in the string. using [] 
