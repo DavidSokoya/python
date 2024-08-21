@@ -8,3 +8,7 @@
 # Sam Harris => S.H
 
 # patrick feeney => P.F
+def abbrev_name(name):
+    word = name.split(' ')
+    
+    return word[0][0].upper() + '.' + word[1][0].upper()
