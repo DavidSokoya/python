@@ -3,5 +3,5 @@ def sayName(name):
 
 
 
-sayName('David')
-sayName('John')
+print(sayName('David'))
+print(sayName('John'))
