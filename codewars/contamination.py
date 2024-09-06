@@ -20,11 +20,3 @@ def contamination(text, char):
         else:
             res += char 
     return res
-def contamination2(text, char):
-    res = ''
-    for i in text:
-        if i == '':
-            res += ''
-        else:
-            res += char 
-    return res
