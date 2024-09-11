@@ -16,3 +16,6 @@ def capitalize_word (word):
     new_word = f"{f_letter}{r_words}"
     
     return new_word or word
+
+def capitalizeWord(word):
+    return word.capitalize()
