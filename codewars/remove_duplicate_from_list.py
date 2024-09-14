@@ -9,5 +9,12 @@
 # [1, 2, 1, 1, 3, 2] -> [1, 2, 3]
 
 def distinct(seq):
-    new_seq = sorted(seq)
-    return list(set(new_seq))
+    result = []
+    seen = set()
+
+    for num in seq:
+        if num not in seen:
+            result.append(num)
+            seen.add(num)
+
+    return result
