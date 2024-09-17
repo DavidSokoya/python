@@ -10,3 +10,10 @@
 #   False, False, True,  True]
 # The correct answer would be 17.
 
+def count_sheeps(sheep):
+    counter = 0
+    for num in sheep:
+        if num == True:
+            counter += 1
+    
+    return counter
