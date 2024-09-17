@@ -7,3 +7,11 @@ def sum_mix(arr):
     for i in arr:
         counter +=  int(i)
     return counter
+
+def sum_mix(arr):
+    arr1 = 0
+    
+    for i in arr:
+        arr1 += int(i)
+    return arr1
+    
