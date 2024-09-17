@@ -4,9 +4,7 @@
 
 def square_sum(numbers):
   result = 0
-
   for number in numbers:
     square = number * number
     result += square
-
   return result
