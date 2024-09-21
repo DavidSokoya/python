@@ -3,9 +3,6 @@
 # If they are, change the array value to a string of that vowel.
 
 # Return the resulting array.
-
-
-
 def is_vow(numbers):
 
     vowel_codes = {
