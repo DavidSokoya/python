@@ -7,3 +7,5 @@
 # Example
 # For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
 
+def find_average(nums):
+    return sum(nums) / len(nums) if nums else 0
