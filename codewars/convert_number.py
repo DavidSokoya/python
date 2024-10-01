@@ -3,7 +3,7 @@
 
 # Example(Input => Output):
 # 35231 => [1,3,2,5,3]
-# 0 => [0] uii
+# 0 => [0] 
 
 def digitize(n):
     arr = []
